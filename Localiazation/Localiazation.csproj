@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26248894-101C-469B-AF58-800336CC413E}</ProjectGuid>
+    <ProjectGuid>{72ABA4E0-389A-4390-ACDC-06FD78538421}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LitJson</RootNamespace>
-    <AssemblyName>LitJson</AssemblyName>
+    <RootNamespace>Localiazation</RootNamespace>
+    <AssemblyName>Localiazation</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,20 +37,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BetterList.cs" />
+    <Compile Include="ByteReader.cs" />
+    <Compile Include="Localization.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Extensions.cs" />
-    <Compile Include="IJsonWrapper.cs" />
-    <Compile Include="JsonAttribute.cs" />
-    <Compile Include="JsonData.cs" />
-    <Compile Include="JsonException.cs" />
-    <Compile Include="JsonMapper.cs" />
-    <Compile Include="JsonMockWrapper.cs" />
-    <Compile Include="JsonReader.cs" />
-    <Compile Include="JsonWriter.cs" />
-    <Compile Include="Lexer.cs" />
-    <Compile Include="ParserToken.cs" />
-    <Compile Include="Platform.cs" />
-    <Compile Include="Unity\UnityTypeBindings.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
