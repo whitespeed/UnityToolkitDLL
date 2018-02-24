@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiazation", "Localiazat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGen", "AutoGen\AutoGen.csproj", "{BDDFFB5A-3FA0-499D-975C-0E675FFA4F91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{96278FFD-CC43-4F73-B50E-252FF3A2E5A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BDDFFB5A-3FA0-499D-975C-0E675FFA4F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDDFFB5A-3FA0-499D-975C-0E675FFA4F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDDFFB5A-3FA0-499D-975C-0E675FFA4F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96278FFD-CC43-4F73-B50E-252FF3A2E5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96278FFD-CC43-4F73-B50E-252FF3A2E5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96278FFD-CC43-4F73-B50E-252FF3A2E5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96278FFD-CC43-4F73-B50E-252FF3A2E5A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

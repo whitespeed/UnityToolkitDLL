@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26248894-101C-469B-AF58-800336CC413E}</ProjectGuid>
+    <ProjectGuid>{96278FFD-CC43-4F73-B50E-252FF3A2E5A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LitJson</RootNamespace>
-    <AssemblyName>LitJson</AssemblyName>
+    <RootNamespace>Log</RootNamespace>
+    <AssemblyName>Log</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
@@ -31,33 +31,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\Program Files\Unity5.5.0f3\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Extensions.cs" />
-    <Compile Include="IJsonWrapper.cs" />
-    <Compile Include="JsonAttribute.cs" />
-    <Compile Include="JsonData.cs" />
-    <Compile Include="JsonException.cs" />
-    <Compile Include="JsonMapper.cs" />
-    <Compile Include="JsonMockWrapper.cs" />
-    <Compile Include="JsonReader.cs" />
-    <Compile Include="JsonWriter.cs" />
-    <Compile Include="Lexer.cs" />
-    <Compile Include="ParserToken.cs" />
-    <Compile Include="Platform.cs" />
-    <Compile Include="Unity\UnityTypeBindings.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Fakes Include="Fakes\UnityEngine.fakes" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
